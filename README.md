@@ -1,16 +1,30 @@
 
 
-# [Project Name] 🎯
+<<<<<<< HEAD
+# [Time capsule website] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Virtual Replica]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Aliya Nefrin NK] - [Govt Engineering College]
+- Member 2: [Aparna Jose] - [Govt Engineering College]
 - Member 3: [Name] - [College]
+=======
+# Legacy Box 🎯
+
+
+## Basic Details
+### Team Name: Virtual Replica
+
+
+### Team Members
+- Member 1: Aliya Nefrin N K - Government Engineering College,Thrissur
+- Member 2: Aparna Jose - Government Engineering College,Thrissur
+
+>>>>>>> 5de2f3342294d295027f784bd01746ccbebcdcf0
 
 ### Hosted Project Link
 [mention your project hosted project link here]

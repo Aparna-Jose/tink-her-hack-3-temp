@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Capsules - LegacyBox</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js"></script>
+  <link rel="stylesheet" href="capsule.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Your Capsules</h1>
+    <nav>
+      <a href="./dashboard.html">Dashboard</a>
+      <a href="./create_capsule.html">Create Capsule</a>
+      <a href="./logout.html">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="capsulesList">
+      <h2>Saved Capsules</h2>
+      <ul id="capsules">
+        <p>02/03/2024</p>
+        <img src="https://www.shutterstock.com/image-photo/happy-family-on-beach-vacation-260nw-1907799883.jpg" alt="Family Tour">
+        <p>My family trip to maldives...Nice dayss</p>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LegacyBox. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Firebase configuration
+    const firebaseConfig = {
+    apiKey: "AIzaSyCpN-OfJcdjG4Mq9TmIqjetBWCALMB1g4M",
+    authDomain: "timecapsule-3797c.firebaseapp.com",
+    projectId: "timecapsule-3797c",
+    storageBucket: "timecapsule-3797c.firebasestorage.app",
+    messagingSenderId: "909253913682",
+    appId: "1:909253913682:web:eda953f895c2e1f172038b",
+    measurementId: "G-KDZXP8K76X"
+    };
+
+    // Initialize Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+    const database = firebase.database();
+
+    // Fetch and display capsules
+    const capsulesList = document.getElementById('capsules');
+
+    firebase.database().ref('capsules/').on('value', (snapshot) => {
+      capsulesList.innerHTML = ''; // Clear list
+      const capsules = snapshot.val();
+
+      for (const key in capsules) {
+        const capsule = capsules[key];
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${capsule.name}</strong> - To be delivered on ${capsule.date}<br>${capsule.content}`;
+        capsulesList.appendChild(li);
+      }
+    });
+  </script>
+</body>
+</html>

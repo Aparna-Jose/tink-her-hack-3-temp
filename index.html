@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Capsule Website</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Legacy Box</h1>
+      <p>Preserve memories for your future self or loved ones. Write letters, upload photos, or create videos that will be delivered when the time is right.</p>
+      <a href="#features" class="btn">Get Started</a>
+    </div>
+  </header>
+  
+  
+  <main>
+    <section id="features" class="features-section">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <h3>Write Letters</h3>
+            <p>Create heartfelt letters and send them to your future self or loved ones.</p>
+          </div>
+          <div class="feature">
+            <h3>Upload Memories</h3>
+            <p>Store photos and videos to relive precious moments in the future.</p>
+          </div>
+          <div class="feature">
+            <h3>Scheduled Delivery</h3>
+            <p>Choose when your time capsule should be delivered: 1 year, 10 years, or more.</p>
+          </div>
+          <div class="feature">
+            <h3>Community Capsules</h3>
+            <p>Share and contribute to public capsules for collective memories.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="example" class="example-section">
+        <div class="container">
+          <h2>Create Your Time Capsule</h2>
+          <p>Here's how you can preserve your memories:</p>
+          
+          <div class="example-grid">
+            <div class="example-item">
+              <img src="https://www.nypl.org/scout/_next/image?url=https%3A%2F%2Fdrupal.nypl.org%2Fsites-drupal%2Fdefault%2Ffiles%2Fstyles%2Fmax_width_960%2Fpublic%2Fblogs%2Fimg_7342.jpeg%3Fitok%3DgHcB3pTa&w=3840&q=75" alt="Write Letters" class="example-image">
+              <h3>Write a Letter</h3>
+              <p>Pen heartfelt messages for your future self or loved ones.</p>
+              <button class="btn action-btn" onclick="showExample('letter')">Try Now</button>
+            </div>
+            <div class="example-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGIjxp3KvUFVelnbhTFE1xKrDTlfEkrQKzA&s" alt="Upload Photos" class="example-image">
+              <h3>Upload Photos</h3>
+              <p>Store your favorite photos to relive special moments.</p>
+              <button class="btn action-btn" onclick="showExample('photo')">Try Now</button>
+            </div>
+            <div class="example-item">
+              <img src="https://www.shutterstock.com/shutterstock/videos/1111492669/thumb/8.jpg?ip=x480" alt="Add Videos" class="example-image">
+              <h3>Add Videos</h3>
+              <p>Record videos to send a personal message across time.</p>
+              <button class="btn action-btn" onclick="showExample('video')">Try Now</button>
+            </div>
+          </div>
+          
+          <div id="example-preview" class="preview-section">
+            <h3>Preview Your Memory</h3>
+            <div id="preview-content">
+              <p>Create Your Own Capsules</p>
+              <a href="./create_capsule.html" class="btn">Create capsules</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="example" class="example-section">
+        <div class="container">
+          <h2>Here is some of your latest uploads..</h2>
+          <div class="example-grid">
+            <a href="./view_capsules.html" class="btn">View Capsules</a>
+          </div>
+        </div>
+      </section>
+    <section class="cta-section">
+      <div class="container">
+        <h2>Start Your Journey Today</h2>
+        <p>Create a time capsule now and cherish your memories forever.</p>
+        <a href="#" class="btn">Create Time Capsule</a>
+        <a href="./logout.html" class="btn secondary">Logout</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Time Capsule Website. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+  
+</body>
+</html>
