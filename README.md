@@ -59,7 +59,16 @@ For Software:
 
 ![example](https://github.com/user-attachments/assets/7a8938fb-8670-4c75-ba8d-1e8cd1006c5d)
 
-# Diagrams
+
+![down](https://github.com/user-attachments/assets/01cbc0f5-7c85-433b-b6c4-2d8a07c595a1)
+
+![createcapsule](https://github.com/user-attachments/assets/24eff62b-e683-4a33-ab55-314f67ba8d4a)
+
+![viewcapsule](https://github.com/user-attachments/assets/4c0f71d9-faed-47ca-a6c1-d9e7cc859390)
+
+![logout](https://github.com/user-attachments/assets/5dbc680d-dcea-45ef-8392-35a2ea91d88e)
+
+#diagram
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
