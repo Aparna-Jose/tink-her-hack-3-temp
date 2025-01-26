@@ -13,29 +13,25 @@
 
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://legacybox.vercel.app/index.html
 
 ### Project Description
-[2-3 lines about what your project does]
+Legacy Box is a time capsule website designed to help you preserve and share your precious memories. Whether it's heartfelt letters, cherished photos, or memorable videos, Legacy Box allows you to store them safely and deliver them to yourself or your loved ones on special occasions like birthdays, anniversaries, or any other significant milestones.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+In the fast-paced digital age, memories often get lost amidst the clutter of cloud storage, social media, and forgotten files. There is no dedicated platform that allows individuals to privately and securely preserve their cherished memories—letters, photos, and videos—and deliver them to themselves or loved ones at meaningful moments in the future. This lack of a structured and personal memory delivery system limits our ability to create lasting emotional connections and celebrate milestones in a deeply personal way.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+Legacy Box provides a platform for users to create personalized time capsules, enabling them to schedule the delivery of heartfelt messages, photos, and videos to themselves or loved ones on birthdays, anniversaries, or other significant dates, fostering stronger emotional bonds and preserving their legacy across time.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML
+- CSS
+- JavaScript
+- Firebase
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
@@ -49,6 +45,7 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
+
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
