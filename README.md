@@ -46,14 +46,18 @@ For Software:
 
 # Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![LOGIN](https://github.com/user-attachments/assets/fa7dcf48-890b-440d-80fa-1cf8d149b30c)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![ERROR](https://github.com/user-attachments/assets/8713888d-9fa3-49da-ae1d-d9ff57a55f26)
+
+
+![pas](https://github.com/user-attachments/assets/af0f6444-da05-4915-8232-96248466f1ec)
+
+![homepage](https://github.com/user-attachments/assets/98dd07d3-61c0-4d6b-8a4a-418521bd2756)
+
+
+![example](https://github.com/user-attachments/assets/7a8938fb-8670-4c75-ba8d-1e8cd1006c5d)
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
